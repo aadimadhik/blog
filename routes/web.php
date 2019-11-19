@@ -34,7 +34,7 @@ Route::post('/employees','EmployeesController@store');
 
 Route::get('/employees/create','EmployeesController@create');
 
-Route::get('/employees/edit','EmployeesController@edit');
+Route::get('/employees/{id}/edit','EmployeesController@edit');
 
 
 
@@ -46,7 +46,7 @@ Route::post('/posts','PostsController@store');
 
 Route::get('/posts/create','PostsController@create');
 
-Route::get('/posts/edit','PostsController@edit');
+Route::get('/posts/{id}/edit','PostsController@edit');
 
 
 
@@ -58,7 +58,7 @@ Route::post('/comments','CommentsController@store');
 
 Route::get('/comments/create','CommentsController@create');
 
-Route::get('/comments/edit','CommentsController@edit');
+Route::get('/comments/{id}/edit','CommentsController@edit');
 
 
 
@@ -70,7 +70,7 @@ Route::post('/roles','RolesController@store');
 
 Route::get('/roles/create','RolesController@create');
 
-Route::get('/roles/edit','RolesController@edit');
+Route::get('/roles/{id}/edit','RolesController@edit');
 
 
 
