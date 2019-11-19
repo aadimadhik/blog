@@ -1,0 +1,15 @@
+/*.bodyclass{
+	background-color: red;
+}*/
+
+.mainDiv{
+	background-color: red;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	border-color: black;
+	border-radius: 20%;
+	box-shadow: 20;
+}
